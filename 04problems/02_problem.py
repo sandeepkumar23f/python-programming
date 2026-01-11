@@ -1,0 +1,16 @@
+marks = []
+a = int(input("Enter first student marks: "))
+marks.append(a)
+b = int(input("Enter Second student marks: "))
+marks.append(b)
+c = int(input("Enter Third student marks: "))
+marks.append(c)
+d = int(input("Enter Four student marks: "))
+marks.append(d)
+e = int(input("Enter Five student marks: "))
+marks.append(e)
+f = int(input("Enter Six student marks: "))
+marks.append(f)
+
+marks.sort()
+print(marks)
