@@ -1,4 +1,4 @@
 a = int(input('enter a number '))
 print(a)
-for(i=1 i<=a; i++)
-    if(i%2==0)
+for i in range (0,a):
+    print("Hello sandeep how are you")
